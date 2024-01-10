@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ved.Y1"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:12:3-75
+11-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:12:20-73
+12    <!-- Permissions -->
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:6:3-64
+13-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:6:20-62
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:7:3-77
+14-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:7:20-74
+15    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+15-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:8:3-76
+15-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:8:20-74
+16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+16-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:9:3-73
+16-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:9:20-71
+17    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+17-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:10:3-72
+17-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:10:20-70
+18    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+18-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:11:3-72
+18-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:11:20-70
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:13:3-63
+19-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:13:20-61
+20    <uses-permission android:name="android.permission.WRITE_MEDIA_IMAGES" />
+20-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:14:3-74
+20-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:14:20-72
+21    <uses-permission android:name="android.permission.WRITE_MEDIA_VIDEO" />
+21-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:15:3-73
+21-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:15:20-71
+22    <uses-permission android:name="android.permission.WRITE_MEDIA_AUDIO" /> <!-- Queries -->
+22-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:16:3-73
+22-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:16:20-71
+23    <queries>
+23-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:20:3-26:13
+24        <intent>
+24-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:21:5-25:14
+25            <action android:name="android.intent.action.VIEW" />
+25-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:22:7-58
+25-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:22:15-56
+26
+27            <category android:name="android.intent.category.BROWSABLE" />
+27-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:23:7-67
+27-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:23:17-65
+28
+29            <data android:scheme="https" />
+29-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:24:7-37
+29-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:24:13-35
+30        </intent>
+31        <!-- Query open documents -->
+32        <intent>
+32-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:18
+33            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+33-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-79
+33-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:21-76
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+37-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Ved\.gradle\caches\transforms-3\fdda57ce4bccc1a2efc39cc3f9bc107f\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+37-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Ved\.gradle\caches\transforms-3\fdda57ce4bccc1a2efc39cc3f9bc107f\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+38    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+38-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+38-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+39    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-80
+39-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-77
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Ved\.gradle\caches\transforms-3\8438ee054f730cfcca9fb57d884d0a1f\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+40-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Ved\.gradle\caches\transforms-3\8438ee054f730cfcca9fb57d884d0a1f\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+41
+42    <application
+42-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:3-65:17
+43        android:name="com.ved.Y1.MainApplication"
+43-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:16-47
+44        android:allowBackup="true"
+44-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:150-176
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.7.0] C:\Users\Ved\.gradle\caches\transforms-3\948c3612aee17d86e5c180e70c3ba7eb\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:hardwareAccelerated="true"
+47-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:209-243
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:69-103
+49        android:label="*Y1*"
+49-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:48-68
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:104-149
+51        android:theme="@style/AppTheme"
+51-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:177-208
+52        android:usesCleartextTraffic="true" > <!-- Existing Meta-data -->
+52-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:28:244-279
+53        <meta-data
+53-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:32:5-82
+54            android:name="expo.modules.updates.ENABLED"
+54-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:32:16-59
+55            android:value="true" />
+55-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:32:60-80
+56        <meta-data
+56-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:33:5-93
+57            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+57-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:33:16-68
+58            android:value="48.0.0" />
+58-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:33:69-91
+59        <meta-data
+59-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:34:5-105
+60            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+60-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:34:16-80
+61            android:value="ALWAYS" />
+61-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:34:81-103
+62        <meta-data
+62-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:35:5-99
+63            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+63-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:35:16-79
+64            android:value="0" />
+64-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:35:80-97
+65        <meta-data
+65-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:36:5-128
+66            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+66-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:36:16-67
+67            android:value="https://exp.host/@anonymous/AwesomeProject" /> <!-- Loading Activity -->
+67-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:36:68-126
+68        <activity
+68-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:39:5-47:16
+69            android:name="com.ved.Y1.LoadingActivity"
+69-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:40:9-40
+70            android:exported="true"
+70-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:42:9-32
+71            android:theme="@style/Theme.AppCompat.NoActionBar" >
+71-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:41:9-59
+72            <intent-filter>
+72-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:43:7-46:23
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:44:9-60
+73-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:44:17-58
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:45:9-68
+75-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:45:19-66
+76            </intent-filter>
+77        </activity> <!-- MyScreen Activity -->
+78        <activity
+78-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:50:5-52:16
+79            android:name="com.ved.Y1.MyScreen"
+79-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:50:15-39
+80            android:configChanges="orientation|screenSize"
+80-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:51:44-90
+81            android:exported="true"
+81-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:50:41-64
+82            android:hardwareAccelerated="true" >
+82-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:51:9-43
+83        </activity> <!-- Main Activity -->
+84        <activity
+84-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:5-62:16
+85            android:name="com.ved.Y1.MainActivity"
+85-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:15-43
+86            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+86-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:44-121
+87            android:exported="true"
+87-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:243-266
+88            android:launchMode="singleTask"
+88-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:122-153
+89            android:screenOrientation="fullSensor"
+89-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:267-305
+90            android:theme="@style/Theme.App.SplashScreen"
+90-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:197-242
+91            android:windowSoftInputMode="adjustResize" >
+91-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:55:154-196
+92            <intent-filter>
+92-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:56:7-61:23
+93                <action android:name="android.intent.action.VIEW" />
+93-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:22:7-58
+93-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:22:15-56
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:58:9-67
+95-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:58:19-65
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:23:7-67
+96-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:23:17-65
+97
+98                <data android:scheme="https" />
+98-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:24:7-37
+98-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:24:13-35
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:64:5-106
+102            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+102-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:64:15-79
+103            android:exported="false" />
+103-->C:\Users\Ved\AwesomeProject\android\app\src\main\AndroidManifest.xml:64:80-104
+104
+105        <provider
+105-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-30:20
+106            android:name="expo.modules.filesystem.FileSystemFileProvider"
+106-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+107            android:authorities="com.ved.Y1.FileSystemFileProvider"
+107-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-74
+108            android:exported="false"
+108-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+109            android:grantUriPermissions="true" >
+109-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-47
+110            <meta-data
+110-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:70
+111                android:name="android.support.FILE_PROVIDER_PATHS"
+111-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-67
+112                android:resource="@xml/file_system_provider_paths" />
+112-->[:expo-file-system] C:\Users\Ved\AwesomeProject\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-67
+113        </provider>
+114
+115        <meta-data
+115-->[:expo-modules-core] C:\Users\Ved\AwesomeProject\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:89
+116            android:name="org.unimodules.core.AppLoader#react-native-headless"
+116-->[:expo-modules-core] C:\Users\Ved\AwesomeProject\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-79
+117            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+117-->[:expo-modules-core] C:\Users\Ved\AwesomeProject\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-86
+118
+119        <provider
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ved\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ved\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+121            android:authorities="com.ved.Y1.androidx-startup"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ved\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+122            android:exported="false" >
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ved\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ved\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ved\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ved\.gradle\caches\transforms-3\6a062b21418219d1f36fa88bd61c9016\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ved\.gradle\caches\transforms-3\010b64a8b5f74270f65831dbc9c1f706\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ved\.gradle\caches\transforms-3\010b64a8b5f74270f65831dbc9c1f706\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ved\.gradle\caches\transforms-3\010b64a8b5f74270f65831dbc9c1f706\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+129        </provider>
+130    </application>
+131
+132</manifest>

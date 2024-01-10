@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starryyy_nights" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:contentDescription="@string/logo1_description"
+            android:focusable="true"
+            android:src="@drawable/ranjhanaaaa"
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="30dp"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo2"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/logo2_description"
+            android:layout_below="@id/logo1"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="30dp"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/logo3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo3"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/logo3_description"
+            android:layout_below="@id/logo2"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="30dp"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/welcome_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y1 WELCOMES YOU"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/logo3"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="-7dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

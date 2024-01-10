@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">AwesomeProject</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="logo1_description">Logo 1 is for Youtube</string>
+  <string name="logo2_description">Logo 2 is for Hollywood series nd Movies</string>
+  <string name="logo3_description">Logo 3 is for Anime BInge Watching</string>
+  <string name="tap_to_continue">Tap to Continue</string>
+  <string name="tips_message">* TIPS *\n1. Settings -&gt;&gt; Connection Settings 👻 -&gt;&gt; Pvt DNS 👀\n2. Then Set it on AUTO 😏 and Press Save 😵\n\n💀 TRUST US 😭\n Your BANK Account will not be HACKED 😋😂🤪\n\n3. Aftr evry click, hv patience or Double/Hold click 😎\n4. Double tap nd rotate fr Full View nd Vice-Versa 😋😋</string>
+
+</resources>
