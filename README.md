@@ -15,3 +15,7 @@ Feel free to explore these files for development purposes.
 For your convenience, you can download the latest APK directly by [clicking here](https://github.com/Pengu007/Y1/blob/main/Y1_2024.apk).
 
 If you encounter any issues or have questions related to the Android development of this project, please feel free to reach out.
+
+
+## Authors
+* [Ved_Y1](https://github.com/Pengu007/)
