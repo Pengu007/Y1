@@ -12,6 +12,6 @@ The [App Folder](https://github.com/Pengu007/Y1/tree/main/app) in this repositor
 Feel free to explore these files for development purposes.
 
 ### APK Download Link:
-For your convenience, you can download the latest APK directly by [clicking here](<Insert Direct APK Download Link>).
+For your convenience, you can download the latest APK directly by [clicking here](https://github.com/Pengu007/Y1/blob/main/app/build/outputs/apk/debug/app-debug.apk).
 
 If you encounter any issues or have questions related to the Android development of this project, please feel free to reach out.
